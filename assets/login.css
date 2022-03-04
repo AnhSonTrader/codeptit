@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+div {
+    display: flex;
+}
+.bg_left, .bg_right {
+    position: absolute;
+    bottom: 0;
+}
+.bg_left  {
+    left: 0;
+    width: 407.2px;
+}
+.bg_right {
+    right: 0;
+    width: auto;
+}
+.login_box{
+    margin: auto;
+    margin-top: 10%;
+    text-align: left; 
+    width: 336px; height: 431px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px 0 rgb(44 44 44 / 20%);
+    font-size: 16.8px;
+    box-sizing: border-box;
+}
+.logo {
+    margin-top: 20px;
+    padding-top: 3%;
+    padding-left: 40%;
+    background-color: #fff
+}
+
+.login_top  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 16px, 16px; 
+}
+.login_bot {
+    text-align: left;
+    padding-left: 45px;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.login_bot input{
+    height: 30px;
+    width: 230px;
+    border-radius: 6px;
+    border: solid 0.8px #d8dee2;
+    border-left: 4px solid #bb2019 !important;
+    background-color: #E8F0FE;
+    padding-left: 15.36px;
+}
+.login_bot label{
+    font-size: 13px;
+}
+#check{
+    width: 13.88px;
+    height: 13.88px;
+    border-color: #f80000;
+
+}
+.container .login_box .login_bot .checkbox{
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.login_bot log {
+    background-color: #bb2019;
+    color: #fff;
+}
+.login_bot a{
+    text-align: center;
+    color: #bb2019;
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 85px;
+}
+.lang{
+    display: flex;
+    position: absolute;
+    padding: 6px;
+    width: 271px;
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    box-sizing: border;
+    bottom: 5%;
+    left: 5%;
+    justify-content: center;
+}
+
